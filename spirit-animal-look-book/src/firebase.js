@@ -1,13 +1,13 @@
-import firebase from 'firebase';
+import firebase from "firebase";
 
 const config = {
-  apiKey: '',
-  authDomain: '',
-  databaseURL: '',
-  storageBucket: '',
-  messagingSenderId: ''
+  apiKey: "AIzaSyCdosYny7BSfQ_2F-y-wdermL7CdFlS4oo",
+  authDomain: "spirit-animal-ef518.firebaseapp.com",
+  databaseURL: "https://spirit-animal-ef518.firebaseio.com",
+  projectId: "spirit-animal-ef518",
+  storageBucket: "spirit-animal-ef518.appspot.com",
+  messagingSenderId: "1060040864226"
 };
-
 firebase.initializeApp(config);
 
 export default firebase;
